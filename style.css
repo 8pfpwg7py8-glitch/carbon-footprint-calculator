@@ -1,0 +1,107 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f8f4;
+  color: #24352b;
+  line-height: 1.7;
+}
+
+.navbar {
+  padding: 15px 0;
+}
+
+.hero {
+  background: linear-gradient(135deg, #14532d, #16a34a, #65a30d);
+  padding: 70px 0;
+}
+
+.hero h1 {
+  letter-spacing: -1px;
+}
+
+.hero p {
+  max-width: 650px;
+  margin: 15px auto;
+}
+
+.btn {
+  border-radius: 12px;
+  padding: 11px 20px;
+  font-weight: 600;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+.calculator-card {
+  max-width: 900px;
+  background: white;
+  border: 1px solid #e0eee2;
+  border-radius: 24px !important;
+}
+
+.calculator-card h2 {
+  margin-bottom: 12px;
+}
+
+.form-control,
+.form-select {
+  padding: 12px;
+  border-radius: 10px;
+  border-color: #d5e3d7;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #198754;
+  box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.15);
+}
+
+.list-group-item {
+  padding: 14px;
+  border-color: #e2ece4;
+}
+
+.progress {
+  height: 12px;
+  border-radius: 20px;
+  background-color: #e5eee6;
+  margin-top: 20px;
+}
+
+.progress-bar {
+  border-radius: 20px;
+  transition: width 0.3s ease;
+}
+
+.result-box {
+  background: #edf8ef;
+  border: 1px solid #cce8d1;
+}
+
+footer {
+  line-height: 1.6;
+}
+
+img {
+  max-height: 420px;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 576px) {
+  .hero {
+    padding: 40px 0;
+  }
+
+  .hero h1 {
+    font-size: 2.1rem;
+  }
+
+  .calculator-card {
+    padding: 22px !important;
+  }
+}
